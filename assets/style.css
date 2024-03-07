@@ -51,8 +51,21 @@ header nav a {
     margin-right: 45px;
     border-radius: 25px;
     box-shadow: 5px 10px 10px #fd3777;
-
+    rotate: 5deg;
 }
+
+@keyframes img_hover {
+    0%   {rotate:1 1 0 15deg;}
+    25%  {rotate:1 1 0 15deg;}
+    50%  {rotate: 1 1 0 15deg;}
+    100% {rotate: 1 1 0 15deg;}
+  }
+
+.project_picture img:hover {
+    animation-name: img_hover;
+    animation-duration: 4s;
+}
+
 
 .project_description {
     width: 50%;
