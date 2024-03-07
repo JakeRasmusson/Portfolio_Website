@@ -1,6 +1,6 @@
 header {
     display: flex;
-    height: 100px;
+    height: 125px;
     background-color: #540d6e;
     justify-content: space-between;
 
@@ -12,6 +12,7 @@ h1 {
     color: #2de2e6;
     font-size: 75px;
     text-shadow: 5px 5px 10px #fd3777;
+    font-family: "Audiowide",serif;
 }
 
 header nav {
@@ -23,7 +24,9 @@ header nav a {
     text-decoration: none;
     color: #2de2e6;
     font-size: 25px;
+    font-family: "kode mono";
 }
+
 
 
 
@@ -92,6 +95,8 @@ header nav a {
     padding: 5px;
     background-color: #2de2e6;
     color: #241734;
+    font-family: "Audiowide",serif;
+    
 }
 
 .description_content p {
@@ -100,4 +105,12 @@ header nav a {
     line-height: 150%;
     text-align: center;
     font-size: 20px;
+    font-family: "kode mono";
+}
+
+footer {
+    height: 100px;
+    background-color: #540d6e;
+    width: 100%;
+
 }
