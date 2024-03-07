@@ -37,6 +37,7 @@ header nav a {
     height: 600px;
     display: flex;
     flex-wrap: wrap;
+    
 }/*Start of picture stylings*/
 .project_picture { 
     width: 50%;
@@ -106,7 +107,7 @@ header nav a {
 }
 
 .description_content p {
-    margin: 0 25% 25% 25%;
+    margin: 0 10% 10% 25%;
     color: #2de2e6;
     line-height: 150%;
     text-align: center;
