@@ -1,3 +1,4 @@
+/*Start of Header Styles*/
 header {
     display: flex;
     height: 125px;
@@ -26,18 +27,17 @@ header nav a {
     font-size: 25px;
     font-family: "kode mono";
 }
+/*End of header styles*/
 
 
-
-
+/*Main content box that controls flow*/
 .box1 {
     background-color: #241734;
     width: 100%;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
-}
-
+}/*Start of picture stylings*/
 .project_picture { 
     width: 50%;
     height: 100%;
@@ -48,13 +48,18 @@ header nav a {
 
 }
 
-.project_picture img {
+.project_picture a {
     height: 300px;
     width: 400px;
     margin-right: 45px;
     border-radius: 25px;
     box-shadow: 5px 10px 10px #fd3777;
     rotate: 5deg;
+}
+
+.project_picture img {
+    height: 300px;
+    width: 400px;
 }
 
 @keyframes img_hover {
@@ -64,12 +69,13 @@ header nav a {
     100% {rotate: 1 1 0 15deg;}
   }
 
-.project_picture img:hover {
+.project_picture a:hover {
     animation-name: img_hover;
     animation-duration: 4s;
 }
+/*End of picture stlings*/
 
-
+/*Start of project description stylings*/
 .project_description {
     width: 50%;
     height: 100%;
@@ -107,6 +113,7 @@ header nav a {
     font-size: 20px;
     font-family: "kode mono";
 }
+/*End of project description Stylings*/
 
 footer {
     height: 100px;
