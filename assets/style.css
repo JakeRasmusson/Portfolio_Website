@@ -1,3 +1,7 @@
+body {
+    background-color: #241734;
+}
+
 /*Start of Header Styles*/
 header {
     display: flex;
@@ -29,50 +33,69 @@ header nav a {
 }
 /*End of header styles*/
 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+
+}
 
 /*Main content box that controls flow*/
 .box1 {
-    background-color: #241734;
+    margin: 450px 0;
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: stretch;
+    gap: 15%;
+
     
-}/*Start of picture stylings*/
+    
+}
+.box1:first-child {
+    margin-top: 350px;
+
+}
+/*Start of picture stylings*/
 .project_picture { 
     width: 50%;
     height: 100%;
     display: flex;
-    min-width: 400px;
+    /* min-width: 400px; */
     align-items: center;
     justify-content: center;
+    align-self: stretch;
 
 }
 
 .project_picture a {
-    height: 300px;
-    width: 400px;
-    margin-right: 45px;
-    border-radius: 25px;
+    transition: rotate 260ms ease-in-out;
+    /* height: 300px; */
+    /* width: 400px; */
+    /* margin-right: 45px; */
+    /* border-radius: 25px; */
     box-shadow: 5px 10px 10px #fd3777;
     rotate: 5deg;
 }
 
-.project_picture img {
-    height: 300px;
-    width: 400px;
+.responsive_images {
+    width: 100%;
+    height: auto;
 }
 
-@keyframes img_hover {
+/* @keyframes img_hover {
     0%   {rotate:1 1 0 15deg;}
     25%  {rotate:1 1 0 15deg;}
     50%  {rotate: 1 1 0 15deg;}
     100% {rotate: 1 1 0 15deg;}
-  }
+  } */
 
 .project_picture a:hover {
-    animation-name: img_hover;
-    animation-duration: 4s;
+    rotate: -10deg; 
+    /* animation-name: img_hover;
+    animation-duration: 4s; */
 }
 /*End of picture stlings*/
 
@@ -80,7 +103,7 @@ header nav a {
 .project_description {
     width: 50%;
     height: 100%;
-    min-width: 400px;
+    /* min-width: 400px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +114,7 @@ header nav a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 25%;
+    /* margin-top: 25%; */
 
 }
 
@@ -107,7 +130,7 @@ header nav a {
 }
 
 .description_content p {
-    margin: 0 10% 10% 25%;
+    /* margin: 0 10% 10% 25%; */
     color: #2de2e6;
     line-height: 150%;
     text-align: center;
