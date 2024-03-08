@@ -1,5 +1,6 @@
 body {
     background-color: #241734;
+    font-family: "kode mono"
 }
 
 /*Start of Header Styles*/
@@ -71,7 +72,8 @@ header nav a {
 }
 
 .project_picture a {
-    transition: rotate 260ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    /* transition: scale 260ms ease-in; */
     /* height: 300px; */
     /* width: 400px; */
     /* margin-right: 45px; */
@@ -94,6 +96,9 @@ header nav a {
 
 .project_picture a:hover {
     rotate: -10deg; 
+    box-shadow: 15px 20px 20px #f581a6;
+    transform: scale(1.2);
+
     /* animation-name: img_hover;
     animation-duration: 4s; */
 }
@@ -143,5 +148,27 @@ footer {
     height: 100px;
     background-color: #540d6e;
     width: 100%;
+}
 
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} */
+footer nav li{
+    list-style-type: none;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #2de2e6;
+    font-size: 40px;
+    font-family: "kode mono";
 }
