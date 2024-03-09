@@ -45,9 +45,7 @@ header nav a {
 .box1 {
     margin: 450px 0;
     width: 100%;
-    /* height: 600px; */
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: stretch;
     gap: 15%;
@@ -64,7 +62,6 @@ header nav a {
     width: 50%;
     height: 100%;
     display: flex;
-    /* min-width: 400px; */
     align-items: center;
     justify-content: center;
     align-self: stretch;
@@ -73,11 +70,6 @@ header nav a {
 
 .project_picture a {
     transition: all 500ms ease-in-out;
-    /* transition: scale 260ms ease-in; */
-    /* height: 300px; */
-    /* width: 400px; */
-    /* margin-right: 45px; */
-    /* border-radius: 25px; */
     box-shadow: 5px 10px 10px #fd3777;
     rotate: 5deg;
 }
@@ -87,20 +79,10 @@ header nav a {
     height: auto;
 }
 
-/* @keyframes img_hover {
-    0%   {rotate:1 1 0 15deg;}
-    25%  {rotate:1 1 0 15deg;}
-    50%  {rotate: 1 1 0 15deg;}
-    100% {rotate: 1 1 0 15deg;}
-  } */
-
 .project_picture a:hover {
     rotate: -10deg; 
     box-shadow: 15px 20px 20px #f581a6;
     transform: scale(1.2);
-
-    /* animation-name: img_hover;
-    animation-duration: 4s; */
 }
 /*End of picture stlings*/
 
@@ -108,7 +90,6 @@ header nav a {
 .project_description {
     width: 50%;
     height: 100%;
-    /* min-width: 400px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +100,6 @@ header nav a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* margin-top: 25%; */
 
 }
 
@@ -135,7 +115,6 @@ header nav a {
 }
 
 .description_content p {
-    /* margin: 0 10% 10% 25%; */
     color: #2de2e6;
     line-height: 150%;
     text-align: center;
@@ -155,13 +134,6 @@ footer nav{
     justify-content: space-around;
     align-items: center;
 }
-/* footer nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-} */
 footer nav li{
     list-style-type: none;
 }
@@ -206,7 +178,7 @@ footer nav a {
     }
 }
 
-
+/* Mobile Queries */
 @media  screen and  (max-width: 480px){
     header img {
         display: none;
